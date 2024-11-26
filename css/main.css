@@ -734,7 +734,8 @@ body {
 
 
   .main {
-    min-height: calc(100vh + 350px);
+    min-height: unset;
+    height: calc(100vh + 350px);
   }
 
 
