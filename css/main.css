@@ -288,7 +288,8 @@ body {
   /* max-width: 1920px; */
   max-width: 100vmax;
   padding: 0 20px;
-  margin: 0 auto
+  padding-left: 2.08vmax;
+  margin: 0 auto;
 }
 .container.main-content {
   left: 0;
@@ -353,10 +354,15 @@ body {
 
 
 
+.right-part {
+  position: relative;
+  top: 10vmax;
+}
+
 .blocks-container {
   position: absolute;
   /* bottom: 153px; */
-  bottom: 7.97vmax;
+  bottom: 5vmax;
   /* left: 40px; */
   left: 2.08vmax;
 
@@ -482,10 +488,8 @@ body {
 
 .modal-content {
   position: absolute;
-  /* bottom: 470px; */
-  bottom: 24.48vmax;
-  /* right: 431px; */
-  right: 22.45vmax;
+  bottom: 27vmax;
+  right: 24vmax;
 
   /* width: 600px; */
   width: 31.25vmax;
@@ -827,7 +831,8 @@ body {
 
   .modal-content {
     position: absolute;
-    top: 320px;
+    /*top: 320px;*/
+    top: calc(-100% + 190px);
     right: 0;
     left: 0;
     margin: 0 auto;
