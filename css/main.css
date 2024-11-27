@@ -857,10 +857,10 @@ body {
 
 
 
-  .main {
-    min-height: unset;
-    height: calc(100vh + 270px);
-  }
+  /*.main {*/
+  /*  min-height: unset;*/
+  /*  height: calc(100vh + 270px);*/
+  /*}*/
 
 
   .container {
@@ -940,6 +940,7 @@ body {
   }
 
   .hero-img {
+    display: none;
     /*max-width: 564px;*/
     max-width: 434px;
     bottom: -100px;
